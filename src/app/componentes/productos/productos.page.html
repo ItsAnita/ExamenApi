@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>productos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list>
+      <ion-list>
+        <ion-item-sliding *ngFor="let c of contactos">
+
+          <ion-item>
+            <ion-avatar slot="start">
+              <img src="./assets/ab.jpg">
+            </ion-avatar>
+            <ion-label>{{c.nombre}} {{c.apellido}} <br> {{c.telefono}}</ion-label>
+          </ion-item>
+
+        
+
+        </ion-item-sliding>
+      </ion-list>
+    </ion-list>
+  </ion-list>
+
+
+</ion-content>
